@@ -1,0 +1,171 @@
+body {
+    font-family: arial, sans-serif;
+    line-height: 20px;
+    font-size: 13px;
+    background: #000;
+    color: #bbb
+}
+
+html,
+body {
+    height: 100%
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none
+}
+
+.box-video {
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+
+.jsa-html {
+    position: absolute;
+    z-index: 333;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 100%
+}
+
+.jsa-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 222;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%)
+}
+
+.playiframe {
+    z-index: 666;
+    width: 300px;
+    height: 250px;
+    margin: 0
+}
+
+.jsa-img {
+    display: block;
+    left: -20px;
+    top: -12px;
+    position: relative;
+    z-index: 9999
+}
+
+.play-img {
+    cursor: pointer
+}
+
+.jsa-pop {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.jw-icon-rewind {
+    display: none!important
+}
+
+.jw-skin-five .jw-text {
+    color: #333
+}
+
+.dowlink {
+    color: #01a377
+}
+
+.dowlink:hover {
+    text-decoration: underline
+}
+
+.jw-controlbar-left-group .jw-text-elapsed,
+.jw-controlbar-right-group .jw-text-duration {
+    display: inline-block!important
+}
+
+.playiframe {
+    width: 300px;
+    height: 250px;
+    margin: 3px 0
+}
+
+.ihover:hover {
+    text-decoration: underline
+}
+
+.icenter {
+    margin: 10px 0;
+    text-align: center;
+    padding: 0 20px
+}
+
+.reload,
+.dow {
+    color: #01a377
+}
+
+.reload {
+    cursor: pointer
+}
+
+.jw-preview {
+    background-size: 100%!important
+}
+
+.view-more:hover {
+    color: red
+}
+
+.jw-controls-backdrop {}
+
+.jw-controls-backdrop {
+    background: 0 0
+}
+
+.jw-icon-cc {
+    display: none
+}
+
+.srv {
+    padding: 10px;
+    cursor: pointer
+}
+
+.srv:hover {
+    text-decoration: underline
+}
+
+.skip-ads {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    padding: 10px 40px;
+    background: #222;
+    border: 1px solid #999;
+    font-size: 20px;
+    text-align: center;
+    z-index: 9999;
+    display: none;
+    cursor: pointer
+}
+
+.box-count {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: #000;
+    z-index: 9999
+}
+
+@media only screen and (max-width:651px) {
+    .iframe-2 {
+        display: none
+    }
+}

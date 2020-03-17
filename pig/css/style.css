@@ -1,0 +1,201 @@
+/*
+Theme Name: GK Responsive V3
+Theme URI: http://wordpress.org/themes/twentytwelve
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
+Version: 1.5
+*/
+*{margin:0;padding:0}
+body{color:#aaa;font-family:arial,sans-serif;line-height:20px;font-size:13px;background:#4e4e4e}
+fieldset,img{border:0;outline:none}
+li{list-style:none}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+h1,h2,h3,h4,h5,h6{outline:none;border:0;margin:0;padding:0}
+.clr{clear:both}
+ul,li{margin:0;padding:0}
+a{text-decoration:none;color:#ccc}
+a:hover{color:#01a377}
+#header{padding:15px 10px;margin-bottom:0}
+#header .left{float:left;margin-right:5px}
+#header .right{float:left;line-height:30px}
+#search{float:left;line-height:30px;margin-top:5px;}
+#s{padding:2px 10px;float:left;display:block;margin-right:2px;outline:none;margin-top:3px;width:80px}
+#searchsubmit{padding:4px 5px;border:0;margin-top:3px;cursor:pointer;outline:none;background:#444;color:#fff;float:left}
+#header li{display:inline;float:left;margin-right:17px}
+#top-banner{margin:5px 10px;overflow:hidden}
+#breadcrumb{padding:0;color:#333;margin:0 10px 10px}
+.box-menu{background:#232323;padding:0}
+#navigation{padding:0;margin:0 0 10px}
+#navigation li{float:left;display:inline;padding:8px 0}
+#navigation li a{padding:8px 17px;border-right:1px solid #333;text-decoration:none;color:#ccc;text-transform:uppercase}
+#navigation li a:hover{color:#fff}
+
+.main-title{font-weight:700;color:#01a377;font-size:17px;margin:0 10px}
+#container{margin-bottom:30px}
+#footer{text-align:center;padding:20px 0;border-top:1px solid #444;margin-top:5px}
+.item{float:left;margin-bottom:20px}
+.top-ads{text-align: center;margin-top:10px}
+.item .thumb{display:block;overflow:hidden;margin-bottom:5px}
+.item .m{text-align:left;padding:0 10px}
+.item .title{font-weight:bold}
+.item .title span{padding-right:3px}
+.error{margin:10px}
+.col-6{float:left;float:left;width:69%;margin-right: 1%;padding-bottom: 15px}
+.col-4{float:left;float:left;width:30%;}
+.share{padding:10px 0 0}
+.tip{float:left;font-size:13px}
+.fb,.gplus{float:right}
+.fb{margin-right:25px}
+.ep a,.ep span{padding:3px 9px;margin-right:5px}
+.ep span{background:#5a5a5a;color:#fff}
+.ep{padding:5px 0}
+.content p{margin-bottom:5px}
+.content h2{font-weight:700;font-size:14px;margin-bottom:5px;line-height:22px}
+.content h3{font-weight:700;font-size:13px;margin-bottom:5px}
+.top-navigation a{padding:4px 7px;color:#fff!important;background:#79be1e}
+.top-navigation .two a{background:#e38d27}
+.top-navigation .three a{background:#CE425D}
+.main-description a{color:#2f96b4}
+.ritem{text-align:center}
+.ritem .title{font-weight:700;color:#5a5a5a}
+.ritem .title:hover{color:#111}
+.pagination{text-align:center}
+.pagination a,.pagination span{padding:5px 10px;margin-right:10px}
+.pagination span,.pagination a:hover{background:#e8e8e8;color:#000}
+.nav-foot{text-align:center;padding:10px 0}
+.content img{max-width:100%}
+.content li{display:list-item;margin-left:25px;list-style-type:circle!important}
+.ads-bot{text-align:center;margin:10px 0}
+#footer a{color:#01a377}
+#footer a:hover{text-decoration:underline}
+.item .thumb{position:relative}
+.item .thumb .overlay{position:absolute;border:0;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.5);background-image:url(../images/play-icon.png);background-repeat:no-repeat;background-position:center center;opacity:0;-webkit-transition:.25s;-moz-transition:.25s;-ms-transition:.25s;-o-transition:.25s;transition:.25s}
+.item .thumb:hover .overlay{cursor:pointer;z-index:999;opacity:1}
+.item .overlay{visibility:hidden}
+.item .thumb:hover .overlay{visibility:visible}
+.item .overlay{background-image:url(../images/play-icon.png)}
+.item a:hover{color:#01a377}
+.relate-bot-title{margin:10px;}
+.col{float:left;width:240px;margin-bottom:20px}
+.col-title{font-weight:700;margin:5px 0 5px 20px;background:#f5f5f5;padding:3px 0}
+.col ul{padding-left:20px;padding-right:0}
+.col a:hover{text-decoration:underline}
+.col li{margin-bottom:3px;margin-left:15px;list-style:disc outside none;display:list-item}
+#wrapper{width:1000px;margin:0 auto;position:relative;background:#050909}
+.top-title{font-size:15px; font-weight: bold;margin:10px;color:#01a377;text-transform: uppercase;margin-bottom: 10px}
+.s-title{text-transform: inherit}
+.icenter{text-align: center}
+.item{width:33%;height:auto;margin:0;padding:0;overflow:hidden;margin-bottom:25px}
+.item-top{width:50%}
+.item{float:left}
+.item img{width:100%;height:auto;display:block;margin:0;padding:0;border:0}
+.item .thumb{width:100%;height:auto}
+.item .m{height:auto;margin:0}
+.item{display:inline-block;vertical-align:top}
+.video{margin:0;padding:0}
+.item a{display:block;height:30px;line-height:26px;overflow:hidden}
+.item .title{font-size:13px}
+
+.wrap-video{margin:10px}
+.box-video{width:100%;margin:0 auto}
+.content{width:100%;margin:10px auto;font-family:arial,sans-serif;font-size:13px;color:#bbb}
+.tags{line-height:24px}
+.content a,.tags a{color:#01a377}
+.content a:hover{text-decoration:underline}
+.tags a:hover{text-decoration:underline}
+#bread{margin:0 10px 5px}
+.main-title{margin-bottom:10px}
+.item .m{position:relative}
+.gk-duration{position:absolute;bottom:40px;right:15px;font-size:12px;background:rgba(40,40,40,.6);padding:0 3px;color:#fff;opacity:.8}
+.box-content{padding:0 10px}
+.content ul{margin-bottom:3px}
+.video img{width:auto;height:auto}
+.h1-title{font-size:16px;margin-bottom:10px;text-align:center;line-height:24px;padding:0 10px;color:#ccc}
+#nav-trigger{width:100%;display:none;background:#444}
+#nav-trigger span{display:inline-block;padding:5px 10px;display:block;margin:0 0 10px;cursor:pointer;background:url(../images/menu_icon32.png) no-repeat right 0 center}
+#navigation ul{list-style-type:none;margin:0;padding:0;text-align:center}
+nav#nav-mobile{z-index:9999;clear:both;position:relative;display:none;margin:0}
+nav#nav-mobile ul{display:none;width:100%;list-style-type:none;margin-bottom:10px;left:0;right:0;margin-left:auto;margin-right:auto;text-align:center;background:#333}
+nav#nav-mobile li{display:block;padding:3px 0;border-bottom:solid 1px #111}
+nav#nav-mobile li:last-child{border-bottom:none}
+nav#nav-mobile a{display:block;color:#fff;padding:5px 0}
+nav#nav-mobile a:hover{background-color:#222;color:#fff}
+
+@media only screen and (max-width : 1000px) {
+    .box-menu{margin:0}
+    #nav-trigger{display:block}
+    #navigation{display:none}
+    nav#nav-mobile{display:block}
+    .col-6{width:100%}
+    .col-4{width:100%}
+}
+@media only screen and (max-width : 480px) {
+    #wrapper{width:100%}
+    .content{width:100%}
+    .item{width:50%}
+    .box-video{width:100%}
+
+}
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+    #wrapper{width:100%}
+    .content{width:100%;margin:10px auto}
+    .item{width:33.33%}
+    .box-video{width:100%}
+
+
+}
+@media only screen and (min-width : 769px) and (max-width : 1000px) {
+    #wrapper{width:100%}
+    .content{width:100%;margin:10px auto}
+    .item{width:25%}
+    .box-video{width:70%}
+}
+.list{padding:10px 0px}
+#header{padding:0 10px;margin-bottom:10px;border-bottom:1px solid #444}
+#search{margin-top:10px;margin-right:20px}
+.top-menu{float:left;line-height:30px;margin-top:10px}
+.top-menu a{padding:3px 1px;margin-bottom:12px;}
+.list-cate li{float:left;width:50%;border-bottom:1px solid #222;padding:5px 0px}
+.list-cate li.bornone{border:0}
+.list-cate li a{padding:3px 10px}
+.cate-title {
+    font-weight: bold;
+    background: #111;
+    padding: 5px 10px;
+}
+.margin-10{
+    padding:10px;
+}
+.wrap-video{
+    margin:0;padding:0;
+    width:100%;position: relative;height: 0;width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.wrap-video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.btn-show {
+    margin: 5px 0px;
+    display: block;
+
+    cursor: pointer;
+}
+.show-less{
+    height:40px;
+    overflow: hidden;
+}
+.show-more{
+    height:auto;
+}
+
+.download{text-align: center}
+.download a{color:#01a377;padding:2px 5px}
+.download a:hover{text-decoration: underline}
