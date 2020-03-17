@@ -62,7 +62,7 @@ a:hover{color:#01a377}
 .ritem .title:hover{color:#111}
 .pagination{text-align:center}
 .pagination a,.pagination span{padding:5px 10px;margin-right:10px}
-.pagination span,.pagination a:hover{background:#e8e8e8;color:#000}
+.pagination span,.pagination a:hover{background:red;color:#000}
 .nav-foot{text-align:center;padding:10px 0}
 .content img{max-width:100%}
 .content li{display:list-item;margin-left:25px;list-style-type:circle!important}
